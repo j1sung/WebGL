@@ -375,9 +375,9 @@ function updateBackgroundColor() {
 
     // 번갈아가며 색상 설정
     if (isEven) {
-      gl.clearColor(0.2, 0.2, 0.8, 1.0); // 파란색
+      gl.clearColor(0, 0, 0, 0.5); // 파란색
     } else {
-      gl.clearColor(0.8, 0.2, 0.2, 1.0); // 빨간색
+      gl.clearColor(0, 0, 0, 1); // 빨간색
     }
   } else if (modelMatrices.length === 1) {
     gl.clearColor(0, 0, 0, 0.9); // 병합 완료 후 하얀색 배경
